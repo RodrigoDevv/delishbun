@@ -18,25 +18,25 @@ export default function MenuPreview({ openMenu }: { openMenu: () => void }) {
 
   const menuItems = {
     Burgers: [
-      { id: 'b1', name: t('classicSmashName'), price: '$12.99', desc: t('classicSmashDesc'), img: './imgs/classicSmash.jpg' },
-      { id: 'b2', name: t('spicyInfernoName'), price: '$16.50', desc: t('spicyInfernoDesc'), img: './imgs/Spicy Inferno.jpg' },
-      { id: 'b3', name: t('truffleRoyaleName'), price: '$18.99', desc: t('truffleRoyaleDesc'), img: './imgs/The Truffle Royale.jpg' },
-      { id: 'b4', name: t('bbqBaconName'), price: '$15.99', desc: t('bbqBaconDesc'), img: './imgs/BBQ Bacon.jpg' },
+      { id: 'b1', name: t('classicSmashName'), price: '$12.99', desc: t('classicSmashDesc'), img: '/delishbun/imgs/classicSmash.jpg' },
+      { id: 'b2', name: t('spicyInfernoName'), price: '$16.50', desc: t('spicyInfernoDesc'), img: '/delishbun/imgs/Spicy Inferno.jpg' },
+      { id: 'b3', name: t('truffleRoyaleName'), price: '$18.99', desc: t('truffleRoyaleDesc'), img: '/delishbun/imgs/The Truffle Royale.jpg' },
+      { id: 'b4', name: t('bbqBaconName'), price: '$15.99', desc: t('bbqBaconDesc'), img: '/delishbun/imgs/BBQ Bacon.jpg' },
     ],
     Fries: [
-      { id: 'f1', name: t('originalSaltedName'), price: '$4.99', desc: t('originalSaltedDesc'), img: './imgs/Original Salted.jpg' },
-      { id: 'f2', name: t('loadedQuesoName'), price: '$8.99', desc: t('loadedQuesoDesc'), img: './imgs/Loaded Queso.jpg' },
-      { id: 'f3', name: t('sweetPotatoName'), price: '$6.50', desc: t('sweetPotatoDesc'), img: './imgs/Sweet Potato.jpg' },
-      { id: 'f4', name: t('truffleFriesName'), price: '$9.99', desc: t('truffleFriesDesc'), img: './imgs/Truffle Fries.jpg' },
+      { id: 'f1', name: t('originalSaltedName'), price: '$4.99', desc: t('originalSaltedDesc'), img: '/delishbun/imgs/Original Salted.jpg' },
+      { id: 'f2', name: t('loadedQuesoName'), price: '$8.99', desc: t('loadedQuesoDesc'), img: '/delishbun/imgs/Loaded Queso.jpg' },
+      { id: 'f3', name: t('sweetPotatoName'), price: '$6.50', desc: t('sweetPotatoDesc'), img: '/delishbun/imgs/Sweet Potato.jpg' },
+      { id: 'f4', name: t('truffleFriesName'), price: '$9.99', desc: t('truffleFriesDesc'), img: '/delishbun/imgs/Truffle Fries.jpg' },
     ],
     Drinks: [
-      { id: 'd1', name: t('craftColaName'), price: '$3.50', desc: t('craftColaDesc'), img: './imgs/Craft Cola.jpg' },
-      { id: 'd2', name: t('strawberryShakeName'), price: '$7.00', desc: t('strawberryShakeDesc'), img: './imgs/Strawberry Shake.jpg' },
-      { id: 'd3', name: t('icedLemonadeName'), price: '$4.00', desc: t('icedLemonadeDesc'), img: './imgs/Iced Lemonade.jpg' },
+      { id: 'd1', name: t('craftColaName'), price: '$3.50', desc: t('craftColaDesc'), img: '/delishbun/imgs/Craft Cola.jpg' },
+      { id: 'd2', name: t('strawberryShakeName'), price: '$7.00', desc: t('strawberryShakeDesc'), img: '/delishbun/imgs/Strawberry Shake.jpg' },
+      { id: 'd3', name: t('icedLemonadeName'), price: '$4.00', desc: t('icedLemonadeDesc'), img: '/delishbun/imgs/Iced Lemonade.jpg' },
     ],
     Desserts: [
-      { id: 's1', name: t('lavaCakeName'), price: '$8.50', desc: t('lavaCakeDesc'), img: './imgs/Lava Cake.jpg' },
-      { id: 's2', name: t('cookieSkilletName'), price: '$9.00', desc: t('cookieSkilletDesc'), img: './imgs/Cookie Skillet.jpg' },
+      { id: 's1', name: t('lavaCakeName'), price: '$8.50', desc: t('lavaCakeDesc'), img: '/delishbun/imgs/Lava Cake.jpg' },
+      { id: 's2', name: t('cookieSkilletName'), price: '$9.00', desc: t('cookieSkilletDesc'), img: '/delishbun/imgs/Cookie Skillet.jpg' },
     ]
   };
 

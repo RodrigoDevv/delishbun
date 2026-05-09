@@ -14,7 +14,7 @@ export default function FeaturedBurgers({ openMenu }: { openMenu: () => void }) 
       description: t('truffleRoyaleDesc'),
       price: "$18.99",
       cals: "850 Cal",
-      image: "./imgs/Truffle Fries.jpg",
+      image: "/delishbun/imgs/Truffle Fries.jpg",
       badge: t('bestSeller')
     },
     {
@@ -23,7 +23,7 @@ export default function FeaturedBurgers({ openMenu }: { openMenu: () => void }) 
       description: t('spicyInfernoDesc'),
       price: "$16.50",
       cals: "920 Cal",
-      image: "./imgs/Spicy Inferno.jpg",
+      image: "/delishbun/imgs/Spicy Inferno.jpg",
       badge: t('spicy'),
       icon: <Flame className="w-4 h-4" />
     },
@@ -33,7 +33,7 @@ export default function FeaturedBurgers({ openMenu }: { openMenu: () => void }) 
       description: t('classicSmashDesc'),
       price: "$12.99",
       cals: "740 Cal",
-      image: "./imgs/classicSmash.jpg"
+      image: "/delishbun/imgs/classicSmash.jpg"
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ export default function FeaturedBurgers({ openMenu }: { openMenu: () => void }) 
       description: t('wagyuWonderDesc'),
       price: "$24.99",
       cals: "980 Cal",
-      image: "./imgs/Wagyu Wonder.jpg",
+      image: "/delishbun/imgs/Wagyu Wonder.jpg",
       badge: t('new')
     },
     {
@@ -50,7 +50,7 @@ export default function FeaturedBurgers({ openMenu }: { openMenu: () => void }) 
       description: t('bbqBlissDesc'),
       price: "$17.95",
       cals: "1050 Cal",
-      image: "./imgs/BBQ Bliss.jpg"
+      image: "/delishbun/imgs/BBQ Bliss.jpg"
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ export default function FeaturedBurgers({ openMenu }: { openMenu: () => void }) 
       description: t('veganVibesDesc'),
       price: "$15.50",
       cals: "620 Cal",
-      image: "./imgs/Vegan Vibes.jpg"
+      image: "/delishbun/imgs/Vegan Vibes.jpg"
     }
   ];
 

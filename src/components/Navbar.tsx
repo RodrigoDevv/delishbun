@@ -43,7 +43,7 @@ export default function Navbar() {
       >
         <div className="max-w-[1600px] mx-auto px-6 md:px-12 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3 group cursor-pointer select-none">
-            <img src="./imgs/logo.png" alt="Delish Bun Logo" className="w-12 h-12 rounded-full shadow-lg border-2 border-burger-gold bg-white object-contain transition-transform duration-300 group-hover:scale-110" />
+            <img src="/delishbun/imgs/logo.png" alt="Delish Bun Logo" className="w-12 h-12 rounded-full shadow-lg border-2 border-burger-gold bg-white object-contain transition-transform duration-300 group-hover:scale-110" />
             <span className="font-display text-2xl md:text-3xl tracking-[0.1em] text-white uppercase group-hover:text-burger-gold transition-colors duration-500">
               Delish<span className="text-burger-gold group-hover:text-white transition-colors duration-500">Bun</span>
             </span>

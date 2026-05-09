@@ -56,7 +56,7 @@ export default function Location() {
                 <Phone className="text-burger-gold w-8 h-8 mb-4" />
                 <h3 className="text-white font-bold uppercase tracking-wider text-sm mb-2">{t('contact')}</h3>
                 <p className="text-[#A0A0A0] font-medium leading-relaxed">
-                  +212 674 745 858in <br />
+                  +212 674 745 858 <br />
                   delishbuncom@gmail.com
                 </p>
               </div>

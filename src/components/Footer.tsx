@@ -21,7 +21,7 @@ export default function Footer({ openInfo }: { openInfo: (type: 'help' | 'privac
           {/* Brand Column */}
           <div className="flex flex-col gap-8">
             <div className="flex items-center gap-2">
-              <img src="./imgs/logo.png" alt="Delish Bun Logo" className="w-12 h-12 rounded-full shadow-lg border-2 border-burger-gold bg-white object-contain" />
+              <img src="/delishbun/imgs/logo.png" alt="Delish Bun Logo" className="w-12 h-12 rounded-full shadow-lg border-2 border-burger-gold bg-white object-contain" />
               <span className="font-display text-3xl text-white uppercase tracking-tighter">Delish Bun</span>
             </div>
             <p className="text-[#A0A0A0] font-medium leading-relaxed">
