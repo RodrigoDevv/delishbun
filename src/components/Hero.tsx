@@ -216,9 +216,8 @@ export default function Hero() {
              transition={{ 
                opacity: { duration: 1, delay: 1.2 },
                scale: { duration: 1, delay: 1.2, type: "spring" },
-               y: { duration: 1.2, delay: 1.2, type: "spring" },
-               filter: { duration: 1, delay: 1.2 },
                y: { repeat: Infinity, duration: 4, ease: "easeInOut", delay: 2.4 },
+               filter: { duration: 1, delay: 1.2 },
                rotate: { repeat: Infinity, duration: 5, ease: "easeInOut", delay: 2.4 }
              }}
              className="absolute left-[20%] md:left-[10%] -bottom-[5%] text-transparent font-display text-3xl md:text-6xl pointer-events-none mix-blend-screen z-20"

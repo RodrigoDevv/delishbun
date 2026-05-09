@@ -2,14 +2,14 @@ import { motion } from 'motion/react';
 import { useLanguage } from '../context/LanguageContext';
 
 const images = [
-  "/../imgs/RestauShow.WEBP",
-  "/../imgs/Spicy Inferno.jpg",
-  "/../imgs/The Truffle Royale.jpg",
-  "/../imgs/BBQ Bacon.jpg",
-  "/../imgs/Original Salted.jpg",
-  "/../imgs/Loaded Queso.jpg",
-  "/../imgs/Sweet Potato.jpg",
-  "/../imgs/Truffle Fries.jpg"
+  "./imgs/RestauShow.WEBP",
+  "./imgs/Spicy Inferno.jpg",
+  "./imgs/The Truffle Royale.jpg",
+  "./imgs/BBQ Bacon.jpg",
+  "./imgs/Original Salted.jpg",
+  "./imgs/Loaded Queso.jpg",
+  "./imgs/Sweet Potato.jpg",
+  "./imgs/Truffle Fries.jpg"
 ];
 
 export default function FoodGallery() {

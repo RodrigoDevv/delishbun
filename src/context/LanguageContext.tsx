@@ -199,7 +199,6 @@ const translations: Translations = {
 
   // Statistics
   burgersSmashed: { EN: 'BURGERS SMASHED', AR: 'برغر تم تحطيمه', FR: 'BURGERS ÉCRASÉS' },
-  locations: { EN: 'LOCATIONS', AR: 'مواقع', FR: 'LIEUX' },
   avgRatingStat: { EN: 'AVG RATING', AR: 'متوسط التقييم', FR: 'NOTE MOYENNE' },
   happyCustomers: { EN: 'HAPPY CUSTOMERS', AR: 'عملاء سعداء', FR: 'CLIENTS HEUREUX' },
 

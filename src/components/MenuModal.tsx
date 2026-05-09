@@ -18,22 +18,22 @@ export default function MenuModal({ isOpen, onClose }: MenuModalProps) {
   const categories = ['All', 'Burgers', 'Fries', 'Drinks', 'Desserts'];
 
   const menuItems = [
-    { id: 'b1', category: 'Burgers', name: t('classicSmashName'), price: '$12.99', desc: t('classicSmashDesc'), img: '/../imgs/classicSmash.jpg', badge: 'Popular' },
-    { id: 'b2', category: 'Burgers', name: t('spicyInfernoName'), price: '$16.50', desc: t('spicyInfernoDesc'), img: '/../imgs/Spicy Inferno.jpg', badge: 'Spicy' },
-    { id: 'b3', category: 'Burgers', name: t('truffleRoyaleName'), price: '$18.99', desc: t('truffleRoyaleDesc'), img: '/../imgs/The Truffle Royale.jpg', badge: 'Premium' },
-    { id: 'b4', category: 'Burgers', name: t('bbqBaconName'), price: '$15.99', desc: t('bbqBaconDesc'), img: '/../imgs/BBQ Bacon.jpg', },
-    { id: 'b5', category: 'Burgers', name: t('wagyuWonderName'), price: '$24.99', desc: t('wagyuWonderDesc'), img: '/../imgs/Wagyu Wonder.jpg', badge: 'New' },
-    { id: 'b6', category: 'Burgers', name: t('bbqBlissName'), price: '$17.95', desc: t('bbqBlissDesc'), img: '/../imgs/BBQ Bliss.jpg', },
-    { id: 'b7', category: 'Burgers', name: t('veganVibesName'), price: '$15.50', desc: t('veganVibesDesc'), img: '/../imgs/Vegan Vibes.jpg', },
-    { id: 'f1', category: 'Fries', name: t('originalSaltedName'), price: '$4.99', desc: t('originalSaltedDesc'), img: '/../imgs/Original Salted.jpg', },
-    { id: 'f2', category: 'Fries', name: t('loadedQuesoName'), price: '$8.99', desc: t('loadedQuesoDesc'), img: '/../imgs/Loaded Queso.jpg', badge: 'Popular' },
-    { id: 'f3', category: 'Fries', name: t('sweetPotatoName'), price: '$6.50', desc: t('sweetPotatoDesc'), img: '/../imgs/Sweet Potato.jpg', },
-    { id: 'f4', category: 'Fries', name: t('truffleFriesName'), price: '$9.99', desc: t('truffleFriesDesc'), img: '/../imgs/Truffle Fries.jpg', },
-    { id: 'd1', category: 'Drinks', name: t('craftColaName'), price: '$3.50', desc: t('craftColaDesc'), img: '/../imgs/Craft Cola.jpg', },
-    { id: 'd2', category: 'Drinks', name: t('strawberryShakeName'), price: '$7.00', desc: t('strawberryShakeDesc'), img: '/../imgs/Strawberry Shake.jpg', badge: 'New' },
-    { id: 'd3', category: 'Drinks', name: t('icedLemonadeName'), price: '$4.00', desc: t('icedLemonadeDesc'), img: '/../imgs/Iced Lemonade.jpg', },
-    { id: 's1', category: 'Desserts', name: t('lavaCakeName'), price: '$8.50', desc: t('lavaCakeDesc'), img: '/../imgs/Lava Cake.jpg', badge: 'Popular' },
-    { id: 's2', category: 'Desserts', name: t('cookieSkilletName'), price: '$9.00', desc: t('cookieSkilletDesc'), img: '/../imgs/Cookie Skillet.jpg', },
+    { id: 'b1', category: 'Burgers', name: t('classicSmashName'), price: '$12.99', desc: t('classicSmashDesc'), img: './imgs/classicSmash.jpg', badge: 'Popular' },
+    { id: 'b2', category: 'Burgers', name: t('spicyInfernoName'), price: '$16.50', desc: t('spicyInfernoDesc'), img: './imgs/Spicy Inferno.jpg', badge: 'Spicy' },
+    { id: 'b3', category: 'Burgers', name: t('truffleRoyaleName'), price: '$18.99', desc: t('truffleRoyaleDesc'), img: './imgs/The Truffle Royale.jpg', badge: 'Premium' },
+    { id: 'b4', category: 'Burgers', name: t('bbqBaconName'), price: '$15.99', desc: t('bbqBaconDesc'), img: './imgs/BBQ Bacon.jpg', },
+    { id: 'b5', category: 'Burgers', name: t('wagyuWonderName'), price: '$24.99', desc: t('wagyuWonderDesc'), img: './imgs/Wagyu Wonder.jpg', badge: 'New' },
+    { id: 'b6', category: 'Burgers', name: t('bbqBlissName'), price: '$17.95', desc: t('bbqBlissDesc'), img: './imgs/BBQ Bliss.jpg', },
+    { id: 'b7', category: 'Burgers', name: t('veganVibesName'), price: '$15.50', desc: t('veganVibesDesc'), img: './imgs/Vegan Vibes.jpg', },
+    { id: 'f1', category: 'Fries', name: t('originalSaltedName'), price: '$4.99', desc: t('originalSaltedDesc'), img: './imgs/Original Salted.jpg', },
+    { id: 'f2', category: 'Fries', name: t('loadedQuesoName'), price: '$8.99', desc: t('loadedQuesoDesc'), img: './imgs/Loaded Queso.jpg', badge: 'Popular' },
+    { id: 'f3', category: 'Fries', name: t('sweetPotatoName'), price: '$6.50', desc: t('sweetPotatoDesc'), img: './imgs/Sweet Potato.jpg', },
+    { id: 'f4', category: 'Fries', name: t('truffleFriesName'), price: '$9.99', desc: t('truffleFriesDesc'), img: './imgs/Truffle Fries.jpg', },
+    { id: 'd1', category: 'Drinks', name: t('craftColaName'), price: '$3.50', desc: t('craftColaDesc'), img: './imgs/Craft Cola.jpg', },
+    { id: 'd2', category: 'Drinks', name: t('strawberryShakeName'), price: '$7.00', desc: t('strawberryShakeDesc'), img: './imgs/Strawberry Shake.jpg', badge: 'New' },
+    { id: 'd3', category: 'Drinks', name: t('icedLemonadeName'), price: '$4.00', desc: t('icedLemonadeDesc'), img: './imgs/Iced Lemonade.jpg', },
+    { id: 's1', category: 'Desserts', name: t('lavaCakeName'), price: '$8.50', desc: t('lavaCakeDesc'), img: './imgs/Lava Cake.jpg', badge: 'Popular' },
+    { id: 's2', category: 'Desserts', name: t('cookieSkilletName'), price: '$9.00', desc: t('cookieSkilletDesc'), img: './imgs/Cookie Skillet.jpg', },
   ];
 
   const filteredItems = menuItems.filter(item => {
@@ -55,7 +55,7 @@ export default function MenuModal({ isOpen, onClose }: MenuModalProps) {
           {/* Header */}
           <div className="p-6 border-b border-white/5 flex items-center justify-between bg-[#090B0C]/80 backdrop-blur-xl">
             <div className="flex items-center gap-4">
-               <img src="/imgs/logo.png" alt="Logo" className="w-10 h-10 rounded-full border border-burger-gold" />
+               <img src="./imgs/logo.png" alt="Logo" className="w-10 h-10 rounded-full border border-burger-gold" />
                <h2 className="text-white font-display text-2xl uppercase tracking-widest">Full Menu</h2>
             </div>
             <button onClick={onClose} className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-white transition-all">

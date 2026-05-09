@@ -71,7 +71,7 @@ export default function IntroScreen({ onComplete }: { onComplete: () => void }) 
              transition={{ duration: 1.5, ease: [0.16, 1, 0.3, 1] }}
              className="absolute inset-0 flex items-center justify-center pointer-events-none z-[5]"
           >
-             <img src="/../imgs/intro-bg.jpg" alt="Burger Intro" className="w-[150vw] sm:w-[120vw] lg:w-[100vw] max-w-[1200px] object-contain drop-shadow-[0_0_100px_rgba(251,191,36,0.6)]" />
+             <img src="./imgs/intro-bg.jpg" alt="Burger Intro" className="w-[150vw] sm:w-[120vw] lg:w-[100vw] max-w-[1200px] object-contain drop-shadow-[0_0_100px_rgba(251,191,36,0.6)]" />
           </motion.div>
 
           {/* Explosive Sparks */}
